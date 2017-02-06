@@ -97,8 +97,15 @@ dd {
 }
 
 
-.someRight dd {
-    margin-left: 25px;
+.someRight{
+    dd {
+        margin-left: 25px;
+    }
+    dt a{
+        display: inline-block;
+        float: right;
+        font-size: 14px;
+    }
 }
 
 .skill {

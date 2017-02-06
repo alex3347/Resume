@@ -75,6 +75,11 @@ h2 {
 .someRight dd {
   margin-left: 25px; }
 
+.someRight dt a {
+  display: inline-block;
+  float: right;
+  font-size: 14px; }
+
 .skill {
   position: relative; }
 
