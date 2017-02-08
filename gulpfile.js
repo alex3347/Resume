@@ -16,16 +16,18 @@ gulp.task('sass', function(){
   	.pipe(autoprefix())
     .pipe(sass()) 
     .pipe(gulp.dest('src/css'))
-    .pipe(browserSync.reload({
-      stream: true
-    }))
+//  .pipe(browserSync.reload({
+//    stream: true
+//  })
 });
 
 gulp.task('browserSync', function() {
   browserSync({
-    server: {
-      baseDir: 'src'
-    },
+//  server: {
+//    baseDir: ["dis", "font"],
+//    index: "../print.html"
+//  }
+	files: ["dis/css/*.css", "*.html"]
   })
 });
 
@@ -67,9 +69,10 @@ gulp.task('del:all', function(callback) {
   return cache.clearAll(callback);
 })
 
-gulp.task('watch',['browserSync', 'sass'], function(){
-  gulp.watch('src/scss/**/*.scss', ['sass']);
-  gulp.watch('src/*.html', browserSync.reload);
+gulp.task('watch',['browserSync', 'sass'], function(callback){
+  gulp.watch('src/scss/**/*.scss', ['sass']));
+  gulp.watch('src/css/**/*.css', ['minify-css']));
+  gulp.watch('*.html', browserSync.reload);
   gulp.watch('src/js/**/*.js', browserSync.reload);
 })
 
@@ -78,7 +81,11 @@ gulp.task('default', function(callback) {
     callback
   )
 })
-
+gulp.task('change-css', function(callback) {
+  runSequence('sass', 'minify-css',
+    callback
+  )
+})
 gulp.task('build', function(callback) {
   runSequence(
     'del',
