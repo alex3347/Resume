@@ -65,7 +65,10 @@ a {
 img {
     display: block;
     margin: 0 auto 15px;
-    width: 150px;
+    width: 140px;
+    height:140px;
+    border: 5px solid #aee2d9;
+    border-radius: 50%;
 }
 }
 
@@ -267,7 +270,3 @@ h5 {
     margin: 0 0 12px 0;
 }
 
-.efe .task4img img {
-    height: 73px;
-    width: inherit;
-}
