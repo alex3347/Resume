@@ -48,6 +48,7 @@ aside {
   margin: 10px auto;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
   width: 1040px;
+  height: 1834px;
   overflow: hidden;
   border-radius: 4px; }
 
@@ -55,13 +56,11 @@ aside {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 300px;
-  padding: 15px 15px 10000px;
+  width: 285px;
+  padding: 15px 10px 15px 15px;
   background: #00bfa5;
   color: #fff;
-  line-height: 1.5;
-  box-sizing: border-box;
-  margin-bottom: -10000px; }
+  line-height: 1.5; }
   .sidebar a {
     color: #fff; }
 
@@ -136,11 +135,10 @@ h2 {
 
 .main {
   position: relative;
-  left: 300px;
+  left: 310px;
   width: 700px;
-  padding: 15px 20px 10000px;
-  background: #f0f2f1;
-  margin-bottom: -10000px; }
+  padding: 15px 20px;
+  background: #f0f2f1; }
   .main a {
     color: #4db6ac; }
 

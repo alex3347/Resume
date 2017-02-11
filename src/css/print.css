@@ -112,21 +112,6 @@ h2 {
   color: #004d40;
   font-size: 20px; }
 
-.qr {
-  position: absolute;
-  bottom: 40px;
-  color: #004d40;
-  font-size: 20px;
-  text-align: center;
-  width: 400px; }
-
-.qr-in {
-  margin: 0 auto; }
-  .qr-in img {
-    width: 200px; }
-  .qr-in a {
-    color: #004d40; }
-
 .main {
   position: relative;
   left: 350px;
