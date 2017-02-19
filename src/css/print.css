@@ -28,7 +28,7 @@ aside {
 
 .container {
   width: 1060px;
-  height: 1150px;
+  height: 1250px;
   position: relative;
   margin: 0 auto; }
 
@@ -38,7 +38,7 @@ aside {
   bottom: 0;
   width: 350px;
   padding: 25px;
-  background: #00bfa5;
+  background: #009D8C;
   color: #fff;
   line-height: 1.5;
   box-sizing: border-box; }
@@ -97,7 +97,7 @@ h2 {
 .skill-bar-wrap {
   height: 17px;
   width: 150px;
-  background: #00796b;
+  background: #298473;
   display: inline-block;
   border-radius: 20px; }
 
@@ -116,7 +116,7 @@ h2 {
   position: relative;
   left: 350px;
   width: 610px;
-  height: 1150px;
+  height: 1250px;
   padding: 15px 20px 0;
   background: #f0f2f1;
   box-sizing: border-box; }
