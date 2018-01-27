@@ -3,14 +3,8 @@
     padding: 0;
 }
 
-body {
-    background: #e0e0e0;
-    font-family: 'Helvetica Neue', Helvetica, 'Lucida Grande', Arial, 'Hiragino Sans GB', 微软雅黑, 'WenQuanYi Micro Hei', STHeiti, SimSun, sans-serif;
-    min-width: 1080px;
-}
 
-ul,
-li {
+ul, li {
     list-style: none;
 }
 
@@ -18,255 +12,180 @@ a {
     text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-dt,
-dd,
-p {
+h1, h2, h3, h4, h5, dt, dd, p {
     cursor: default;
 }
 
-aside {
-    position: fixed;
-    right: 0;
-    top: 30%;
-    z-index: 2;
-li {
-    margin-bottom: 10px;
-    border-radius: 10px 0 0 10px;
-    background: #009D8C;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+body {
+  font-family: 微软雅黑, 'WenQuanYi Micro Hei', STHeiti, SimSun, sans-serif;
+  min-width: 595px;
+  background-color: #fff;
+  margin-bottom: 20px;
 }
 
-a {
-    color: #fff;
-    display: inline-block;
-    width: 80px;
-    height: 38px;
-    line-height: 38px;
-    padding-left: 10px;
-}
-}
-
-
-.container {
-    position: relative;
-    margin: 10px auto;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
-    width: 1040px;
+header{
+  width:595px;
+  margin:0 auto;
+  .headerTop{
     overflow: hidden;
-    border-radius: 4px;
-}
-
-.sidebar {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 285px;
-    padding: 15px 10px 15px 15px;
-    background: #009D8C;
-    color: #fff;
-    line-height: 1.5;
-a {
-    color: #fff;
-}
-}
-
-
-.title {
-    margin: 25px 0 20px;
-    text-align: center;
-img {
-    display: block;
-    margin: 0 auto 15px;
-    width: 140px;
-    height:140px;
-    border: 5px solid #aee2d9;
-    border-radius: 50%;
-}
-}
-
-
-h1 {
-    font-size: 28px;
-    font-weight: normal;
-}
-
-h2 {
-    font-size: 14px;
-}
-
-.side-info{
-    li {
-        padding-top: 20px;
-    }
-    
-    dt {
-        font-size: 18px;
-        color: #9f3;
-        line-height: 40px;
-    }
-    
-    dd {
-        font-size: 14px;
-        line-height: 20px;
-    }
-    
-} 
-
-.someRight dd {
-    margin-left: 25px;
-}
-
-.skill {
-    position: relative;
-}
-
-.skill-name {
-    width: 100px;
-    font-size: 14px;
-    display: inline-block;
-    position: relative;
-    left: 25px;
-    top: -3px;
-}
-
-.skill-bar-wrap {
-    height: 17px;
-    width: 150px;
-    background: #298473;
-    display: inline-block;
-    border-radius: 20px;
-}
-
-.skill-bar {
-    height: 17px;
-    background: #fff;
-    border-radius: 20px 0 0 20px;
-}
-
-.note {
-    text-indent: 2em;
-    margin-top: 90px;
-    color: #004d40;
-    font-size: 18px;
-}
-.download{
-    width: 120px;
-    text-align: center;
-    border: 1px solid #fff;
-    margin: 20px auto 0px;
-    border-radius: 3px;
-}
-
-.main {
-    position: relative;
-    left: 310px;
-    width: 700px;
-    padding: 15px 20px;
-    background: #f0f2f1;
-    a {
-        color: #4db6ac;
+      .headerTopLeft{
+          float: left;
+          color: #4ed0e6;
+          margin-top: 40px;
+          .title{
+              height:40px;
+              font-size: 40px;
+              padding:0 30px;
+              float: left;
+              margin-top: -8px;
+          }
+          .describe{
+              float: left;
+              border-left: 2px solid #4ed0e6;
+              margin-bottom: 26px;
+              padding-left: 30px;
+              .position{
+                  font-size: 18px;
+              }
+              .english{
+                  font-size: 16px;
+              }
+          }
+      }
+      .headerTopRight{
+          float: right;
+          margin-top: 22px;
+          img{
+              width:117px;
+              height:71px;
+          }
+      }
+  }
+    .headerBottom{
+      overflow: hidden;
+        >div{
+            height:20px;
+            float: left;
+        }
+        .left{
+            width:372px;
+            background-color: #4ed0e6;
+        }
+        .middle{
+            width:17px;
+            background: url("../img/bac.png") 0 0 no-repeat;
+        }
+        .right{
+            width:206px;
+            background-color: #e6b34e;
+        }
     }
 }
-
-
-.main-info > li {
-    padding-top: 20px;
+section{
+  width:595px;
+  margin:0 auto;
+    .subTitle{
+        width:516px;
+        height:50px;
+        border-left: 1px solid #efefef;
+        border-bottom: 1px solid #efefef;
+        position: relative;
+        margin:0 auto;
+        .content{
+            width:120px;
+            height:28px;
+            background: url("../img/titleBac.png") 0 0 no-repeat;
+            font-size: 14px;
+            color: #fff;
+            position: absolute;
+            bottom:-7px;
+            left:-12px;
+            padding-left: 17px;
+        }
+    }
+    .sectionContent{
+        width:486px;
+        margin:0 auto;
+        overflow: hidden;
+        border-left: 1px solid #efefef;
+        padding-left: 30px;
+        .basicInfoItem{
+            float: left;
+            width:220px;
+            margin-top: 12px;
+            font-size: 14px;
+            color: #333;
+            i{
+                display: inline-block;
+                width:66px;
+                font-style: normal;
+            }
+        }
+        .basicInfoItem:nth-child(2n){
+            padding-left: 30px;
+        }
+        .skillTitle{
+            font-size: 14px;
+            color: #4ed0e6;
+            margin-top: 20px;
+        }
+        .skillInfoItem{
+            font-size: 14px;
+            color: #333;
+            line-height: 24px;
+        }
+        .company{
+            font-size: 14px;
+            color: #4ed0e6;
+            overflow: hidden;
+            margin-top: 20px;
+            .name{
+                float: left;
+            }
+            .time{
+                float: left;
+                padding-left: 60px;
+            }
+        }
+        .projectTitle{
+            font-size: 14px;
+            color: #4ed0e6;
+            overflow: hidden;
+            margin-top: 20px;
+            .projectName{
+                float: left;
+            }
+            .projectLink{
+                float: right;
+                .projectLinkItem{
+                    width:74px;
+                    height:24px;
+                    line-height: 24px;
+                    border:1px solid #4ed0e6;
+                    border-radius: 12px;
+                    float: left;
+                    margin-left: 10px;
+                    text-align: center;
+                    img{
+                        display: inline-block;
+                        width:12px;
+                        height:12px;
+                    }
+                    i{
+                        display: inline-block;
+                        font-style: normal;
+                    }
+                }
+            }
+        }
+        .projectDescribe{
+            font-size: 14px;
+            color: #333;
+            line-height: 24px;
+        }
+    }
 }
 
-.main-info dt {
-    font-size: 24px;
-    color: #00796b;
-    line-height: 30px;
-    border-bottom: 1px solid #00796b;
-    margin: 0 0 15px -5px;
-}
-
-.main-info dd {
-    font-size: 15px;
-    line-height: 27px;
-    color: #616161;
-}
-
-.main-info span {
-    color: #000;
-    font-size: 16px;
-}
-
-h3 {
-    font-size: 19px;
-    color: #004d40;
-    margin: 0 0 15px 5px;
-}
-
-h4 {
-    line-height: 30px;
-    font-size: 18px;
-    color: #000;
-    position: relative;
-    bottom: 3px;
-}
-
-h5 {
-    clear: both;
-    font-size: 16px;
-    color: #000;
-    line-height: 25px;
-}
-
-.fa {
-    margin-right: 2px;
-}
-
-h4 a,
-h5 a {
-    font-size: 12px;
-    border: 1px solid #4db6ac;
-    padding: 1px 3px;
-    border-radius: 5px;
-    margin-left: 7px;
-}
-
-.circle {
-    height: 14px;
-    width: 14px;
-    border-radius: 100%;
-    background: #00796b;
-    float: left;
-    position: absolute;
-    left: -28px;
-    top: 5px;
-}
-
-.exp {
-    border-left: 2px solid #00796b;
-    margin-left: 15px;
-}
-
-.exp p {
-    font-size: 15px;
-    color: #616161;
-    line-height: 22px;
-    margin-bottom: 3px;
-}
-
-.exp > li {
-    position: relative;
-    top: -5px;
-    margin: 0 0 20px 20px;
-}
-
-.exp img {
-    width: 200px;
-}
-
-.exp ul > li {
-    margin: 0 0 12px 0;
-}
 
 
 
