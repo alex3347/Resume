@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, dt, dd, p {
 body {
   font-family: 微软雅黑, 'WenQuanYi Micro Hei', STHeiti, SimSun, sans-serif;
 }
+@font-face {
+  font-family: 方正兰亭中黑;
+  src: url("../font/方正兰亭中黑_GBK.ttf");
+}
 
 .container{
   box-shadow: 0 0 4px #ccc;
@@ -38,10 +42,10 @@ body {
             margin-top: 40px;
             .title{
                 height:40px;
+                font-family: 方正兰亭中黑,微软雅黑;
                 font-size: 40px;
                 padding:0 30px;
                 float: left;
-                margin-top: -8px;
                 font-weight: bold;
             }
             .describe{
