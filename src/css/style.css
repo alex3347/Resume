@@ -81,7 +81,7 @@ body {
         width: 120px;
         height: 28px;
         background: url("../img/titleBac.png") 0 0 no-repeat;
-        font-size: 14px;
+        font-size: 15px;
         color: #fff;
         position: absolute;
         bottom: -7px;
@@ -95,7 +95,7 @@ body {
       padding-left: 30px; }
       .container section .sectionContent .basicInfoItem {
         float: left;
-        width: 220px;
+        width: 230px;
         margin-top: 12px;
         font-size: 14px;
         color: #333; }
@@ -104,9 +104,9 @@ body {
           width: 66px;
           font-style: normal; }
       .container section .sectionContent .basicInfoItem:nth-child(2n) {
-        padding-left: 30px; }
+        padding-left: 20px; }
       .container section .sectionContent .skillTitle {
-        font-size: 14px;
+        font-size: 15px;
         color: #4ed0e6;
         margin-top: 20px; }
       .container section .sectionContent .skillInfoItem {
@@ -129,7 +129,8 @@ body {
         overflow: hidden;
         margin-top: 20px; }
         .container section .sectionContent .projectTitle .projectName {
-          float: left; }
+          float: left;
+          font-size: 15px; }
         .container section .sectionContent .projectTitle .projectLink {
           float: right; }
           .container section .sectionContent .projectTitle .projectLink .projectLinkItem {
@@ -149,6 +150,8 @@ body {
             .container section .sectionContent .projectTitle .projectLink .projectLinkItem i {
               display: inline-block;
               font-style: normal; }
+      .container section .sectionContent .projectTitleSpecial {
+        margin-top: 5px; }
       .container section .sectionContent .projectDescribe {
         font-size: 14px;
         color: #333;
